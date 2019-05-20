@@ -7,28 +7,16 @@ sections:
 - type: heading
   label: Content
 - type: directory
-  path: pictures
-  label: Picures
-  create: documents
-  match: "**/*"
-- type: jekyll-posts
-  label: Posts
+  path: _experience
+  label: Experience
   create: all
-  templates:
-  - post
+  match: "**/*"
 - type: jekyll-pages
   label: Pages
   create: all
   templates:
   - landing-page
   - page
-- type: directory
-  path: _people
-  label: People
-  create: all
-  match: "*"
-  templates:
-  - person
 - type: directory
   path: _projects
   label: Projects
